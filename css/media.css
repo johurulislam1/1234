@@ -1,0 +1,229 @@
+/*extra small device*/
+
+@media( max-width:575.99px) {
+    .navbar-brand img {
+        width: 135px;
+        padding-top: 10px;
+    }
+    button i {
+        color: #fff;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+        line-height: 40px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .navbar-nav {
+        background-color: black;
+        width: 290px;
+        padding: 25px 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        background-color: bisque;
+        color: #000;
+    }
+    .navbar {
+        position: absolute;
+    }
+    .banner-text h3 {
+        font-size: 22px;
+        padding-bottom: 28px;
+        padding-top: 76px;
+    }
+    .banner-text h1 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .banner-text p {
+        font-size: 14px;
+        text-align: center;
+        padding-top: 20px;
+        line-height: 24px;
+        padding-bottom: 38px;
+        width: 295px;
+    }
+    .button a {
+        padding: 14px 25px;
+    }
+    #banner {
+        height: 90vh;
+    }
+    #service {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #homepage {
+        padding-top: 30px;
+    }
+    .headline h2 {
+        font-size: 29px;
+        padding-bottom: 15px;
+        line-height: 36px;
+    }
+    .headline p {
+        font-size: 13px;
+    }
+    .xtra h2 {
+        padding-bottom: 27px;
+        line-height: 40px;
+        padding-bottom: 18px;
+    }
+    .xtra p {
+        font-size: 18px;
+        line-height: 26px;
+        padding-bottom: 15px;
+    }
+    .xtra a {
+        padding: 15px 14px;
+        font-size: 11px;
+    }
+    .xtra {
+        text-align: center;
+    }
+    #project {
+        padding: 30px 0px 40px 0px;
+    }
+    .button .btn {
+        padding: 8px 14px;
+        margin: 5px 2px;
+    }
+    .button {
+        padding-bottom: 30px;
+    }
+    .project-main .project-item {
+        padding-bottom: 18px;
+    }
+    .loadmore a {
+        font-size: 12px;
+        padding: 12px 22px;
+        margin-top: 7px;
+    }
+    #video {
+        padding: 111px 0px 80px 0px;
+    }
+    .video-icon i {
+        font-size: 50px;
+    }
+    .video-icon i::after {
+        height: 85px;
+        width: 85px;
+    }
+    .video-text h3 {
+        font-size: 41px;
+        line-height: 46px;
+    }
+    .video-text p {
+        font-size: 14px;
+        width: 100%;
+        line-height: 28px;
+    }
+    #mobile {
+        padding-top: 50px;
+    }
+    .mobile-text {
+        padding-top: 70px;
+    }
+    .mobile-text h2 {
+        font-size: 30px;
+        padding-bottom: 12px;
+        line-height: 35px;
+    }
+    .mobile-text p {
+        font-size: 16px;
+        padding-bottom: 32px;
+        line-height: 26px;
+        padding-right: 0px;
+        padding-left: 5px;
+    }
+    .mobile-item {
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+    .mobile-item p {
+        margin-bottom: 18px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .mobile-item i {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .counter-item {
+        padding-bottom: 60px;
+    }
+    #counter {
+        padding: 50px 0px 30px;
+    }
+    .post-item2 {
+        padding-left: 26px;
+    }
+    #post {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .post-icon {
+        padding-top: 25px;
+    }
+    .brands-item img {
+        margin: 0 auto;
+        width: 160px !important;
+    }
+    #brands {
+        padding: 65px 0;
+    }
+    #footer {
+        padding: 35px 0;
+    }
+    .footer-logo img {
+        width: 110px;
+    }
+    .footer-text p {
+        font-size: 13px;
+        padding: 16px 0px 14px 0px;
+    }
+    .footer-item h2 {
+        padding-bottom: 22px;
+    }
+    .footer-item-item p {
+        padding-bottom: 15px;
+    }
+    .extra9 p {
+        padding-top: 14px;
+    }
+    .copyright-left p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .copyright-right {
+        margin-top: 20px;
+    }
+    .copyright-left p {
+        text-align: left;
+    }
+    .post-text {
+        padding-left: 8px;
+    }
+    .post-text h2 {
+        font-size: 18px;
+        padding: 26px 0px 20px;
+    }
+    .post-text p {
+        font-size: 11px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    .button a {
+        border-bottom: 3px solid rgb(226, 216, 216);
+    }
+}
+
+.brands-item img {
+    margin: 0 auto;
+    width: 108px;
+}

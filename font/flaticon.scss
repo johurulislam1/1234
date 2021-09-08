@@ -1,0 +1,41 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?dddbda0ef7d897787ea0101dd843c55e") format("truetype"),
+url("./flaticon.woff?dddbda0ef7d897787ea0101dd843c55e") format("woff"),
+url("./flaticon.woff2?dddbda0ef7d897787ea0101dd843c55e") format("woff2"),
+url("./flaticon.eot?dddbda0ef7d897787ea0101dd843c55e#iefix") format("embedded-opentype"),
+url("./flaticon.svg?dddbda0ef7d897787ea0101dd843c55e#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "pencil": "\f101",
+    "layers": "\f102",
+    "settings": "\f103",
+    "shopping-bag": "\f104",
+);
+
+.flaticon-pencil:before {
+    content: map-get($flaticon-map, "pencil");
+}
+.flaticon-layers:before {
+    content: map-get($flaticon-map, "layers");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-shopping-bag:before {
+    content: map-get($flaticon-map, "shopping-bag");
+}

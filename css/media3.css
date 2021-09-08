@@ -1,0 +1,91 @@
+@media(min-width:768px) and (max-width:991.99px) {
+    .navbar-brand img {
+        width: 165px;
+        padding-top: 10px;
+    }
+    button i {
+        color: #fff;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0;
+        line-height: 40px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .navbar-nav {
+        background-color: black;
+        width: 290px;
+        padding: 25px 0;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:hover {
+        background-color: bisque;
+        color: #000;
+    }
+    .navbar {
+        position: absolute;
+    }
+    .service-item h3 {
+        font-size: 19px;
+    }
+    #service {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .xtra h2 {
+        font-size: 27px;
+    }
+    .mobile-text {
+        padding-top: 0px;
+    }
+    #counter {
+        padding: 100px 0px 70px;
+    }
+    .counter-item {
+        padding-bottom: 70px;
+    }
+    .post-text {
+        padding-left: 8px;
+    }
+    .post-text h2 {
+        font-size: 15px;
+        padding: 26px 0px 20px;
+    }
+    .post-text p {
+        font-size: 13px;
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+    #brands {
+        padding: 100px 0;
+    }
+    #footer {
+        padding: 35px 0;
+    }
+    .footer-logo img {
+        width: 110px;
+    }
+    .footer-text p {
+        font-size: 13px;
+        padding: 16px 0px 14px 0px;
+    }
+    .footer-item-item p {
+        padding-bottom: 15px;
+    }
+    .footer-item h2 {
+        padding-bottom: 31px;
+    }
+    .copyright-left p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .copyright-left p span {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .mobile-item {
+        padding-bottom: 50px;
+    }
+}
